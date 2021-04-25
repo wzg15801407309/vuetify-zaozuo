@@ -34,13 +34,12 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld />
+      我的测试
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
 
 export default {
   name: "App",
