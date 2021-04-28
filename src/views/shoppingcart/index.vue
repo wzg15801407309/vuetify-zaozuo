@@ -1,6 +1,7 @@
 <!-- 购物车页面 -->
 <template>
   <div class='page-shoppingcart'>
+      购物车
   </div>
 </template>
 
