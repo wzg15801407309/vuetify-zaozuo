@@ -19,9 +19,9 @@ const routes = [
         component: () => import('../views/personal')
     },
     {// 购物车
-        path:"/shoppingcart",
-        name:"shoppingcart",
-        component: () => import('../views/shoppingcart')
+        path:"/shoppingCart",
+        name:"shoppingCart",
+        component: () => import('../views/shoppingCart')
     },
     {// 分类
         path:"/sort",

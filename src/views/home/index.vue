@@ -1,7 +1,7 @@
 <!-- 首页 -->
 <template>
   <div class='page-home'>
-      首页
+    首页
   </div>
 </template>
 
@@ -9,12 +9,7 @@
 export default {
   // import引入的组件需要注入到对象中才能使用
   components: {},
-  data () {
-    // 这里存放数据
-    return {
-
-    }
-  },
+  data: () => ({}),
   // 监听属性 类似于data概念
   computed: {},
   // 监控data中的数据变化
@@ -41,7 +36,8 @@ export default {
 }
 </script>
 
-<style lang='sass' scoped>
-// @import url(); 引入公共css类
-
+<style lang="sass" scoped>
+.page-home
+  background-color: #666
+  
 </style>
