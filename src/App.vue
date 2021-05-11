@@ -1,18 +1,20 @@
 <template>
   <v-app>
+    <!-- appBar -->
     <v-main>
       <router-view />
-      <tabControl />
     </v-main>
+    <!-- button tab -->
+    <TabControl />
   </v-app>
 </template>
 
 <script>
-import tabControl from "@/components/tabControl";
+import TabControl from "@/components/tabControl";
 export default {
   name: "App",
   components: {
-    tabControl
+    TabControl
   },
   data: () => ({}),
 };
