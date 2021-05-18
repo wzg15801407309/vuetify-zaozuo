@@ -14,8 +14,8 @@
 
     <v-btn height="100%">
       <span>发现</span>
-      <v-icon>$vuetify.icons.MyIcon</v-icon>
-      <!-- <img src="../../assets/icon/icon_find.svg" alt="" srcset=""> -->
+      <!-- <v-icon>$vuetify.icons.MyIcon</v-icon> -->
+      <img src="../../assets/icon/icon_find.svg" alt="" srcset="">
     </v-btn>
 
     <v-btn height="100%">
